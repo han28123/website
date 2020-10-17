@@ -22,7 +22,7 @@ section {
 
 }
 
-#about {
+#about1 {
   position: relative;
   width: 100%;
   height: auto;
@@ -34,4 +34,48 @@ section {
   background-attachment: scroll;
   background-size: cover;
   color:#e9ecef;
+}
+
+#contact1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.7) 75%, #ffffff 100%), url("../assets/img/csm_miles_ew_1eda5d9bc0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color:#131313;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px
+}
+
+th {
+  text-align: center;
+  padding: 8px;
+  height: 50px; 
+  width: 300px;
+
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  width: 1000px;
+  
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+video { max-width: 80%; display: block; margin: 20px auto; }
+
+container{
+color:  #f2f2f2;
 }
